@@ -17,7 +17,7 @@ window.$docsify = {
         '/.*/.*/summary': 'summary.md',
         '/.*/summary.md': 'summary.md',
     },
-    sidebarDisplayLevel:1,
+    sidebarDisplayLevel:0,
     lastModifiedText: '最近更新时间：',
     pagination: {
         previousText: '上一篇',

@@ -1,8 +1,6 @@
-- 基础
-  -   [Java 基础](/docs/basic/java-basic.md)
-
-
-
+- JAVA基础
+  - [Java 基础](/docs/basic/java-basic.md)
+  - [JAVA 版本](/docs/basic/java-versions.md)
 - 高并发架构
   - [消息队列](/docs/high-concurrency/mq-interview.md)
     -   [为什么使用消息队列？](/docs/high-concurrency/why-mq.md)
@@ -233,6 +231,11 @@
     - [Mybatis-ParamNameResolver](/docs/Mybatis/核心处理层/Mybatis-ParamNameResolver.md)
     - [Mybatis-SqlCommand](/docs/Mybatis/核心处理层/Mybatis-SqlCommand.md)
     - [Mybats-GenericTokenParser](/docs/Mybatis/核心处理层/Mybats-GenericTokenParser.md)
+
+- Mybatis-Plus
+    
+
+
 - Netty
   - 网络 IO 技术基础
     - [把被说烂的 BIO、NIO、AIO 再从头到尾扯一遍](docs/Netty/IOTechnologyBase/把被说烂的BIO、NIO、AIO再从头到尾扯一遍.md)
@@ -369,4 +372,12 @@
 
     - 多线程
       - [Java 并发编程在各主流框架中的应用](docs/LearningExperience/ConcurrentProgramming/Java并发编程在各主流框架中的应用.md)
+
+
+- 数据库(建设中)
+  - Arangodb
+  - Mongodb
+  - Mysql
+  - Neo4j
+  - Oracle
 ---
