@@ -201,6 +201,9 @@
     - [SpringSecurity 请求全过程解析](/docs/SpringSecurity/SpringSecurity请求全过程解析.md)
     - [SpringSecurity 自定义用户认证](/docs/SpringSecurity/SpringSecurity自定义用户认证.md)
     - [SpringSecurity 流程补充](/docs/SpringSecurity/SpringSecurity流程补充.md)
+  - SpringJpa
+    - [SpringDataJpa](docs/Spring/JPA/jpa.md)
+    
 - MyBatis
   - 基础支持层
     - [反射工具箱和 TypeHandler 系列](docs/Mybatis/基础支持层/1、反射工具箱和TypeHandler系列.md)
@@ -233,8 +236,6 @@
     - [Mybats-GenericTokenParser](/docs/Mybatis/核心处理层/Mybats-GenericTokenParser.md)
 
 - Mybatis-Plus
-    
-
 
 - Netty
   - 网络 IO 技术基础
@@ -373,6 +374,17 @@
     - 多线程
       - [Java 并发编程在各主流框架中的应用](docs/LearningExperience/ConcurrentProgramming/Java并发编程在各主流框架中的应用.md)
 
+- 操作系统（建设中）
+  - 虚拟机 
+  - Linux基础
+  
+- Docker（建设中）
+  - Docker 基础
+  - 常用命令
+  - 常用容器部署
+
+- k8s（建设中）
+  - k8s基础
 
 - 数据库(建设中)
   - Arangodb
@@ -380,4 +392,33 @@
   - Mysql
   - Neo4j
   - Oracle
----
+  
+- 银行业务知识（建设中）
+  - 监控报送
+  - ESB
+  - 交易反欺诈
+  - 申请反欺诈
+  - 信贷风控
+    - 外数
+    - 评分卡
+  - 图风控(来自小伍哥聊风控)
+    - 一、阅读Top10精选
+      - [风控中的复杂网络-学习路径图](docs/bank/graph/一、阅读Top10精选/风控中的复杂网络-学习路径图.md)
+      - [风控策略的自动化生成-利用决策树分分钟生成上千条策略](docs/bank/graph/一、阅读Top10精选/风控策略的自动化生成-利用决策树分分钟生成上千条策略.md)
+      - [情侣、基友、渣男和狗-基于时空关联规则的影子账户挖掘](docs/bank/graph/一、阅读Top10精选/情侣、基友、渣男和狗-基于时空关联规则的影子账户挖掘.md)
+      - [风控这个行业，入行10年，迷茫十年](docs/bank/graph/一、阅读Top10精选/风控这个行业，入行10年，迷茫十年.md)
+      - [假如让风控来抓嫖娼，一个都跑不掉](docs/bank/graph/一、阅读Top10精选/假如让风控来抓嫖娼，一个都跑不掉.md)
+      - [年薪100w的风控到底需要懂什么](docs/bank/graph/一、阅读Top10精选/年薪100w的风控到底需要懂什么.md)
+      - [基于密集行为的欺诈检测算法-LockInfer](docs/bank/graph/一、阅读Top10精选/基于密集行为的欺诈检测算法-LockInfer.md)
+      - [UFA-在注册环节识别虚假账户的无监督检测算法](docs/bank/graph/一、阅读Top10精选/UFA-在注册环节识别虚假账户的无监督检测算法.md) 
+    - 二、基于复杂网络风控
+      - [1 图论与图学习（一）：图的基本概念](docs/bank/graph/二、基于复杂网络风控/1 图论与图学习（一）：图的基本概念.md)
+      - [2 图论与图学习（二）：主要的图算法](docs/bank/graph/二、基于复杂网络风控/2 图论与图学习（二）：主要的图算法.md)
+      - [3 万物皆网络，万字长文详解社区发现算法Louvain](docs/bank/graph/二、基于复杂网络风控/3 万物皆网络，万字长文详解社区发现算法Louvain.md)
+      - [4 团伙挖掘 or Embedding？这是个问题](docs/bank/graph/二、基于复杂网络风控/4 团伙挖掘 or Embedding？这是个问题.md)
+      - [5 图分析与保险欺诈、信用卡欺诈、增值税欺诈](docs/bank/graph/二、基于复杂网络风控/5 图分析与保险欺诈、信用卡欺诈、增值税欺诈.md)
+      - 
+  - 决策引擎
+
+
+
