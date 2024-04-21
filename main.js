@@ -8,7 +8,7 @@ window.$docsify = {
     },
     subMaxLevel: 4,
     name: 'advanced-java',
-    repo: 'doocs/advanced-java',
+    repo: 'docs/advanced-java',
     maxLevel: 4,
     auto2top: true,
     coverpage: 'docs/extra-page/cover.md',
@@ -17,6 +17,7 @@ window.$docsify = {
         '/.*/.*/summary': 'summary.md',
         '/.*/summary.md': 'summary.md',
     },
+    sidebarDisplayLevel:1,
     lastModifiedText: '最近更新时间：',
     pagination: {
         previousText: '上一篇',
