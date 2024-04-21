@@ -1,5 +1,10 @@
+- 基础
+  -   [Java 基础](/docs/basic/java-basic.md)
+
+
+
 - 高并发架构
-  -   [消息队列](/docs/high-concurrency/mq-interview.md)
+  - [消息队列](/docs/high-concurrency/mq-interview.md)
     -   [为什么使用消息队列？](/docs/high-concurrency/why-mq.md)
     -   [如何保证消息队列的高可用？](/docs/high-concurrency/how-to-ensure-high-availability-of-message-queues.md)
     -   [如何保证消息不被重复消费？](/docs/high-concurrency/how-to-ensure-that-messages-are-not-repeatedly-consumed.md)
@@ -7,12 +12,12 @@
     -   [如何保证消息的顺序性？](/docs/high-concurrency/how-to-ensure-the-order-of-messages.md)
     -   [如何解决消息队列的延时以及过期失效问题？](/docs/high-concurrency/mq-time-delay-and-expired-failure.md)
     -   [如何设计一个消息队列？](/docs/high-concurrency/mq-design.md)
-  -   [搜索引擎](/docs/high-concurrency/es-introduction.md)
+  - [搜索引擎](/docs/high-concurrency/es-introduction.md)
     -   [ES 的分布式架构原理是什么？](/docs/high-concurrency/es-architecture.md)
     -   [ES 写入数据的工作原理是什么？](/docs/high-concurrency/es-write-query-search.md)
     -   [ES 在数十亿级别数量下如何提高查询效率？](/docs/high-concurrency/es-optimizing-query-performance.md)
     -   [ES 生产集群的部署架构是什么？](/docs/high-concurrency/es-production-cluster.md)
-  -   缓存
+  - 缓存
     -   [在项目中缓存是如何使用的？](/docs/high-concurrency/why-cache.md)
     -   [Redis 和 Memcached 有什么区别？](/docs/high-concurrency/redis-single-thread-model.md)
     -   [Redis 都有哪些数据类型以及适用场景？](/docs/high-concurrency/redis-data-types.md)
@@ -26,14 +31,14 @@
     -   [如何保证缓存与数据库双写一致性？](/docs/high-concurrency/redis-consistence.md)
     -   [如何解决 Redis 的并发竞争问题？](/docs/high-concurrency/redis-cas.md)
     -   [生产环境中的 Redis 是怎么部署的？](/docs/high-concurrency/redis-production-environment.md)
-  -   分库分表
+  - 分库分表
     -   [为什么要分库分表？](/docs/high-concurrency/database-shard.md)
     -   [分库分表如何平滑过渡？](/docs/high-concurrency/database-shard-method.md)
     -   [设计一个动态扩容缩容的分库分表方案？](/docs/high-concurrency/database-shard-dynamic-expand.md)
     -   [分库分表之后，id 主键如何处理？](/docs/high-concurrency/database-shard-global-id-generate.md)
-  -   读写分离
+  - 读写分离
     -   [如何实现 MySQL 的读写分离？](/docs/high-concurrency/mysql-read-write-separation.md)
-  -   高并发系统
+  - 高并发系统
     -   [如何设计一个高并发系统？](/docs/high-concurrency/high-concurrency-design.md)
 - 分布式系统
   -   [面试连环炮](/docs/distributed-system/distributed-system-interview.md)
@@ -118,86 +123,86 @@
     - [Spring BeanFactory 源码解析](/docs/Spring/clazz/Spring-beanFactory.md)
     - [循环依赖](/docs/Spring/IoC/循环依赖.md)
 
-    - AOP
-      - [AOP 源码实现及分析](/docs/Spring/AOP/AOP源码实现及分析.md)
-      - [JDK 动态代理的实现原理解析](/docs/Spring/AOP/JDK动态代理的实现原理解析.md)
-      - [Spring AOP 如何生效(Spring AOP 标签解析)](/docs/Spring/AOP/Spring-Aop如何生效.md)
+  - AOP
+    - [AOP 源码实现及分析](/docs/Spring/AOP/AOP源码实现及分析.md)
+    - [JDK 动态代理的实现原理解析](/docs/Spring/AOP/JDK动态代理的实现原理解析.md)
+    - [Spring AOP 如何生效(Spring AOP 标签解析)](/docs/Spring/AOP/Spring-Aop如何生效.md)
 
-    - SpringMVC
-      - [IoC 容器 在 Web 环境 中的启动](/docs/Spring/SpringMVC/IoC容器在Web环境中的启动.md)
-      - [SpringMVC 的设计与实现](/docs/Spring/SpringMVC/SpringMVC的设计与实现.md)
-      - [SpringMVC 跨域解析](/docs/Spring/SpringMVC/SpringMVC-CROS.md)
-      - [Spring-MVC-HandlerMapping](/docs/Spring/mvc/Spring-MVC-HandlerMapping.md)
-      - [Spring-mvc-MappingRegistry](/docs/Spring/mvc/Spring-mvc-MappingRegistry.md)
+  - SpringMVC
+    - [IoC 容器 在 Web 环境 中的启动](/docs/Spring/SpringMVC/IoC容器在Web环境中的启动.md)
+    - [SpringMVC 的设计与实现](/docs/Spring/SpringMVC/SpringMVC的设计与实现.md)
+    - [SpringMVC 跨域解析](/docs/Spring/SpringMVC/SpringMVC-CROS.md)
+    - [Spring-MVC-HandlerMapping](/docs/Spring/mvc/Spring-MVC-HandlerMapping.md)
+    - [Spring-mvc-MappingRegistry](/docs/Spring/mvc/Spring-mvc-MappingRegistry.md)
 
-    - SpringJDBC
-      - 努力编写中...
+  - SpringJDBC
+    - 努力编写中...
 
     - Spring 事务
-      - [Spring 与事务处理](/docs/Spring/SpringTransaction/Spring与事务处理.md)
-      - [Spring 声明式事务处理](/docs/Spring/SpringTransaction/Spring声明式事务处理.md)
-      - [Spring 事务处理的设计与实现](/docs/Spring/SpringTransaction/Spring事务处理的设计与实现.md)
-      - [Spring 事务管理器的设计与实现](/docs/Spring/SpringTransaction/Spring事务管理器的设计与实现.md)
-      - [Spring 事务解析](/docs/Spring/TX/Spring-transaction.md)
+    - [Spring 与事务处理](/docs/Spring/SpringTransaction/Spring与事务处理.md)
+    - [Spring 声明式事务处理](/docs/Spring/SpringTransaction/Spring声明式事务处理.md)
+    - [Spring 事务处理的设计与实现](/docs/Spring/SpringTransaction/Spring事务处理的设计与实现.md)
+    - [Spring 事务管理器的设计与实现](/docs/Spring/SpringTransaction/Spring事务管理器的设计与实现.md)
+    - [Spring 事务解析](/docs/Spring/TX/Spring-transaction.md)
 
-    - Spring 源码故事（瞎编版）
-      - [面筋哥 IoC 容器的一天(上)](</docs/Spring/Spring源码故事（瞎编版）/面筋哥IoC容器的一天(上).md>)
+  - Spring 源码故事（瞎编版）
+    - [面筋哥 IoC 容器的一天(上)](</docs/Spring/Spring源码故事（瞎编版）/面筋哥IoC容器的一天(上).md>)
 
-    - Spring 整体脉络
-      - [16 张图解锁 Spring 的整体脉络](/docs/Spring/Spring整体脉络/16张图解锁Spring的整体脉络.md)
+  - Spring 整体脉络
+    - [16 张图解锁 Spring 的整体脉络](/docs/Spring/Spring整体脉络/16张图解锁Spring的整体脉络.md)
 
-    - Spring 类解析
-      - [Spring 自定义标签解析](/docs/Spring/clazz/Spring-Custom-label-resolution.md)
-      - [Spring Scan 包扫描](/docs/Spring/clazz/Spring-scan.md)
-      - [Spring 注解工具类](/docs/Spring/clazz/Spring-AnnotationUtils.md)
-      - [Spring 别名注册](/docs/Spring/clazz/Spring-SimpleAliasRegistry.md)
-      - [Spring 标签解析类](/docs/Spring/clazz/Spring-BeanDefinitionParserDelegate.md)
-      - [Spring ApplicationListener](/docs/Spring/clazz/Spring-ApplicationListener.md)
-      - [Spring messageSource](/docs/Spring/clazz/Spring-MessageSource.md)
-      - [Spring 自定义属性解析器](/docs/Spring/clazz/Spring-Custom-attribute-resolver.md)
-      - [Spring 排序工具](/docs/Spring/clazz/Spring-OrderUtils.md)
-      - [Spring-import 注解](/docs/Spring/clazz/Spring-Import.md)
-      - [Spring-定时任务](/docs/Spring/clazz/Spring-Scheduling.md)
-      - [Spring StopWatch](/docs/Spring/clazz/Spring-StopWatch.md)
-      - [Spring 元数据](/docs/Spring/clazz/Spring-Metadata.md)
-      - [Spring 条件接口](/docs/Spring/clazz/Spring-Conditional.md)
-      - [Spring MultiValueMap](/docs/Spring/clazz/Spring-MultiValueMap.md)
-      - [Spring MethodOverride](/docs/Spring/clazz/Spring-MethodOverride.md)
-      - [Spring BeanDefinitionReaderUtils](/docs/Spring/clazz/Spring-BeanDefinitionReaderUtils.md)
-      - [Spring PropertyPlaceholderHelper](/docs/Spring/clazz/Spring-PropertyPlaceholderHelper.md)
-      - [Spring PropertySource](/docs/Spring/clazz/PropertySource)
-      - [Spring PlaceholderResolver](/docs/Spring/clazz/PlaceholderResolver)
-      - [Spring-AnnotationFormatterFactory](/docs/Spring/clazz/format/Spring-AnnotationFormatterFactory.md)
-      - [Spring-Formatter](/docs/Spring/clazz/format/Spring-Formatter.md)
-      - [Spring-Parser](/docs/Spring/clazz/format/Spring-Parser.md)
-      - [Spring-Printer](/docs/Spring/clazz/format/Spring-Printer.md)
+  - Spring 类解析
+    - [Spring 自定义标签解析](/docs/Spring/clazz/Spring-Custom-label-resolution.md)
+    - [Spring Scan 包扫描](/docs/Spring/clazz/Spring-scan.md)
+    - [Spring 注解工具类](/docs/Spring/clazz/Spring-AnnotationUtils.md)
+    - [Spring 别名注册](/docs/Spring/clazz/Spring-SimpleAliasRegistry.md)
+    - [Spring 标签解析类](/docs/Spring/clazz/Spring-BeanDefinitionParserDelegate.md)
+    - [Spring ApplicationListener](/docs/Spring/clazz/Spring-ApplicationListener.md)
+    - [Spring messageSource](/docs/Spring/clazz/Spring-MessageSource.md)
+    - [Spring 自定义属性解析器](/docs/Spring/clazz/Spring-Custom-attribute-resolver.md)
+    - [Spring 排序工具](/docs/Spring/clazz/Spring-OrderUtils.md)
+    - [Spring-import 注解](/docs/Spring/clazz/Spring-Import.md)
+    - [Spring-定时任务](/docs/Spring/clazz/Spring-Scheduling.md)
+    - [Spring StopWatch](/docs/Spring/clazz/Spring-StopWatch.md)
+    - [Spring 元数据](/docs/Spring/clazz/Spring-Metadata.md)
+    - [Spring 条件接口](/docs/Spring/clazz/Spring-Conditional.md)
+    - [Spring MultiValueMap](/docs/Spring/clazz/Spring-MultiValueMap.md)
+    - [Spring MethodOverride](/docs/Spring/clazz/Spring-MethodOverride.md)
+    - [Spring BeanDefinitionReaderUtils](/docs/Spring/clazz/Spring-BeanDefinitionReaderUtils.md)
+    - [Spring PropertyPlaceholderHelper](/docs/Spring/clazz/Spring-PropertyPlaceholderHelper.md)
+    - [Spring PropertySource](/docs/Spring/clazz/PropertySource)
+    - [Spring PlaceholderResolver](/docs/Spring/clazz/PlaceholderResolver)
+    - [Spring-AnnotationFormatterFactory](/docs/Spring/clazz/format/Spring-AnnotationFormatterFactory.md)
+    - [Spring-Formatter](/docs/Spring/clazz/format/Spring-Formatter.md)
+    - [Spring-Parser](/docs/Spring/clazz/format/Spring-Parser.md)
+    - [Spring-Printer](/docs/Spring/clazz/format/Spring-Printer.md)
 
-    - Spring5 新特性
-      - [Spring5-spring.components 解析](/docs/Spring/Spring5新特性/Spring-spring-components.md)
+  - Spring5 新特性
+    - [Spring5-spring.components 解析](/docs/Spring/Spring5新特性/Spring-spring-components.md)
 
-    - Spring RMI
-      - [Spring RMI](/docs/Spring/RMI/Spring-RMI.md)
+  - Spring RMI
+    - [Spring RMI](/docs/Spring/RMI/Spring-RMI.md)
 
-    - SpringBoot
-      - [SpringBoot run 方法解析](/docs/SpringBoot/Spring-Boot-Run.md)
-      - [SpringBoot 配置加载解析](/docs/SpringBoot/SpringBoot-application-load.md)
-      - [SpringBoot 自动装配](/docs/SpringBoot/SpringBoot-自动装配.md)
-      - [SpringBoot ConfigurationProperties](/docs/SpringBoot/SpringBoot-ConfigurationProperties.md)
-      - [SpringBoot 日志系统](/docs/SpringBoot/SpringBoot-LogSystem.md)
-      - [SpringBoot ConditionalOnBean](/docs/SpringBoot/SpringBoot-ConditionalOnBean.md)
+  - SpringBoot
+    - [SpringBoot run 方法解析](/docs/SpringBoot/Spring-Boot-Run.md)
+    - [SpringBoot 配置加载解析](/docs/SpringBoot/SpringBoot-application-load.md)
+    - [SpringBoot 自动装配](/docs/SpringBoot/SpringBoot-自动装配.md)
+    - [SpringBoot ConfigurationProperties](/docs/SpringBoot/SpringBoot-ConfigurationProperties.md)
+    - [SpringBoot 日志系统](/docs/SpringBoot/SpringBoot-LogSystem.md)
+    - [SpringBoot ConditionalOnBean](/docs/SpringBoot/SpringBoot-ConditionalOnBean.md)
 
-    - SpringBootBatch
-      - [SpringBootBatch 源码](/docs/SpringBootBatch/SpringBootBatch源码.md)
+  - SpringBootBatch
+    - [SpringBootBatch 源码](/docs/SpringBootBatch/SpringBootBatch源码.md)
 
-    - Spring Cloud
-      - [Spring Cloud Commons 源码](docs/SpringCloud/spring-cloud-commons-source-note.md)
-      - [Spring Cloud OpenFeign 源码](docs/SpringCloud/spring-cloud-openfeign-source-note.md)
-      - [Spring Cloud Gateway 源码](docs/SpringCloud/spring-cloud-gateway-source-note.md)
+  - Spring Cloud
+    - [Spring Cloud Commons 源码](docs/SpringCloud/spring-cloud-commons-source-note.md)
+    - [Spring Cloud OpenFeign 源码](docs/SpringCloud/spring-cloud-openfeign-source-note.md)
+    - [Spring Cloud Gateway 源码](docs/SpringCloud/spring-cloud-gateway-source-note.md)
 
-    - SpringSecurity
-      - [SpringSecurity 请求全过程解析](/docs/SpringSecurity/SpringSecurity请求全过程解析.md)
-      - [SpringSecurity 自定义用户认证](/docs/SpringSecurity/SpringSecurity自定义用户认证.md)
-      - [SpringSecurity 流程补充](/docs/SpringSecurity/SpringSecurity流程补充.md)
+  - SpringSecurity
+    - [SpringSecurity 请求全过程解析](/docs/SpringSecurity/SpringSecurity请求全过程解析.md)
+    - [SpringSecurity 自定义用户认证](/docs/SpringSecurity/SpringSecurity自定义用户认证.md)
+    - [SpringSecurity 流程补充](/docs/SpringSecurity/SpringSecurity流程补充.md)
 - MyBatis
   - 基础支持层
     - [反射工具箱和 TypeHandler 系列](docs/Mybatis/基础支持层/1、反射工具箱和TypeHandler系列.md)
@@ -344,24 +349,24 @@
     - [HashSet 类 源码赏析](docs/JDK/collection/HashSet.md)
     - [TreeSet 类 源码赏析](docs/JDK/collection/TreeSet.md)
 
-    - 并发编程
-      - [JUC 并发包 UML 全量类图](docs/JDK/concurrentCoding/JUC并发包UML全量类图.md)
-      - [Executor 线程池组件 源码赏析](docs/JDK/concurrentCoding/Executor线程池组件.md)
-      - [Lock 锁组件 源码赏析](docs/JDK/concurrentCoding/Lock锁组件.md)
-      - [详解 AbstractQueuedSynchronizer 抽象类](docs/JDK/concurrentCoding/详解AbstractQueuedSynchronizer.md)
-      - [Semaphore 类 源码赏析](docs/JDK/concurrentCoding/Semaphore.md)
+  - 并发编程
+    - [JUC 并发包 UML 全量类图](docs/JDK/concurrentCoding/JUC并发包UML全量类图.md)
+    - [Executor 线程池组件 源码赏析](docs/JDK/concurrentCoding/Executor线程池组件.md)
+    - [Lock 锁组件 源码赏析](docs/JDK/concurrentCoding/Lock锁组件.md)
+    - [详解 AbstractQueuedSynchronizer 抽象类](docs/JDK/concurrentCoding/详解AbstractQueuedSynchronizer.md)
+    - [Semaphore 类 源码赏析](docs/JDK/concurrentCoding/Semaphore.md)
 
-    - 学习心得
-      - 个人经验
-        - [初级开发者应该从 Spring 源码中学什么](docs/LearningExperience/PersonalExperience/初级开发者应该从spring源码中学什么.md)
-      - 编码规范
-        - [一个程序员的自我修养](docs/LearningExperience/EncodingSpecification/一个程序员的自我修养.md)
+  - 学习心得
+    - 个人经验
+      - [初级开发者应该从 Spring 源码中学什么](docs/LearningExperience/PersonalExperience/初级开发者应该从spring源码中学什么.md)
+    - 编码规范
+      - [一个程序员的自我修养](docs/LearningExperience/EncodingSpecification/一个程序员的自我修养.md)
 
-      - 设计模式
-        - [从 Spring 及 Mybatis 框架源码中学习设计模式(创建型)](<docs/LearningExperience/DesignPattern/从Spring及Mybatis框架源码中学习设计模式(创建型).md>)
-        - [从 Spring 及 Mybatis 框架源码中学习设计模式(行为型)](<docs/LearningExperience/DesignPattern/从Spring及Mybatis框架源码中学习设计模式(行为型).md>)
-        - [从 Spring 及 Mybatis 框架源码中学习设计模式(结构型)](<docs/LearningExperience/DesignPattern/从Spring及Mybatis框架源码中学习设计模式(结构型).md>)
+    - 设计模式
+      - [从 Spring 及 Mybatis 框架源码中学习设计模式(创建型)](<docs/LearningExperience/DesignPattern/从Spring及Mybatis框架源码中学习设计模式(创建型).md>)
+      - [从 Spring 及 Mybatis 框架源码中学习设计模式(行为型)](<docs/LearningExperience/DesignPattern/从Spring及Mybatis框架源码中学习设计模式(行为型).md>)
+      - [从 Spring 及 Mybatis 框架源码中学习设计模式(结构型)](<docs/LearningExperience/DesignPattern/从Spring及Mybatis框架源码中学习设计模式(结构型).md>)
 
-      - 多线程
-        - [Java 并发编程在各主流框架中的应用](docs/LearningExperience/ConcurrentProgramming/Java并发编程在各主流框架中的应用.md)
+    - 多线程
+      - [Java 并发编程在各主流框架中的应用](docs/LearningExperience/ConcurrentProgramming/Java并发编程在各主流框架中的应用.md)
 ---
